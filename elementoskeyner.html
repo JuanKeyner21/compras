@@ -82,10 +82,58 @@
                             </tr>
                         </tbody>
                         <tfoot>
-
+                            <tr>
+                                <th>Totales</th>
+                            </tr>
                         </tfoot>
                     </table>
-                </main>
+
+                    <br/>
+
+                    <h2>Formularios</h2>
+
+                    <form action="#" method="post">
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="fecha" />
+                        <br/>
+                        <label for="cliente">Cliente</label>
+                        <input required type="text" name="cliente" placeholder="escriba su nombre" />
+                        <br/>
+                        <label for="cantidad">Cantidad</label>
+                        <input type="number" name="cantidad" />
+
+                        <br/>
+                        <input type="radio" name="envio" value="N"> Normal
+                        <input type="radio" name="envio" value="E"> Express
+                        <br/>
+                        <label for="">Horarios de entrega</label>
+                        <input type="checkbox" name="horario[]" value="1"> mañana
+                        <input type="checkbox" name="horario[]" value="2"> tarde 
+                        <input type="checkbox" name="horario[]" value="3"> noche
+                        <br/>
+                        <label for="producto">Producto</label>
+                        <select name="producto">
+                            <option value="-1">seleccione un producto</option>
+                            <option value="1">memoria usb</option>
+                            <option value="2">teclado</option>
+                            <option value="3">disco duro</option>
+                        </select>
+                        <br/>
+                        <label for="observasiones">Observaciones</label>
+                        <textarea placeholder="Escriba si tiene alguna sujerncia" name="observaciones" id="" cols="30" rows="10"></textarea>
+
+                        <br/>
+                        
+                        <input type="button" name="boton" value="Boton">
+                        <button type="button"name="boton2" value="Boton">Boton</button>
+                        <br/>
+                        <input type="reset" value="Resetear">
+                        <br/>
+                        <input type="submit" name="Enviar" value="Enviar">
+                        <br/><br/>
+                    </form>    
+                    </main>
+                
             <footer>
                 <!-- pie de pagina -->
             </footer>
