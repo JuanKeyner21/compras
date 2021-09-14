@@ -1,0 +1,23 @@
+#titulo_de_listas{
+    background-color: blue;
+    color: darkmagenta;
+    text-align: center;
+}
+
+
+.fondo_naranja{
+    background-color: orange;
+    color:black;
+    font-size: 48pt;
+}
+
+h2{
+    color: purple;
+    font-size: 50pt;
+    
+
+}
+body{
+    background-color: rgb(37, 94, 94);
+}
+
