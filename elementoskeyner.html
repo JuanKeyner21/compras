@@ -25,6 +25,32 @@
         1. Atributo style
         -->
         <link rel="stylesheet" href="css/estilos.css">
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+
+            header{
+                border: 2px solid blue ;
+            }
+            main{
+                margin-top: 56px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 70%;
+            }
+            aside{
+                border: 3px solid blue;
+                margin-top: 56px;
+                
+                width: 10%;
+            }
+
+            h2{
+                border: 3px solid red;
+            }
+        </style>
     </head>
     <body>
         <!--contenido de mi pagina web-->
@@ -39,6 +65,11 @@
             </nav>
             <aside>
                 <!-- menu lateral -->
+                <ul>
+                    <li>ejemplo1</li>
+                    <li>ejemplo2</li>
+                    <li>ejemplo3</li>
+                </ul>
             </aside>
             <main>
                 <!-- contenido principal -->
@@ -60,7 +91,7 @@
                         <li>Internacional</li>
                     </ol>
                 <h3>listas desordenadas </h3>
-                    <ul>
+                    <ul id="desordenada">
                         <li>Normal</li>
                         <li>Express</li>
                         <li><a href="otra.html">a la otra</a></li>

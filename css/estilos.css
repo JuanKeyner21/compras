@@ -21,3 +21,20 @@ body{
     background-color: rgb(37, 94, 94);
 }
 
+main{
+    border: 256%;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+
+#desordenada li{
+    background-color: red;
+    font-size: 30;
+    color: blue;
+
+}
